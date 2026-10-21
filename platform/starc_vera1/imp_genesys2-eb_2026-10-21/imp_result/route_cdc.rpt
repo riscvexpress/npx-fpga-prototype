@@ -1,0 +1,37 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Wed Oct 21 09:02:49 2026
+| Host         : localhost.localdomain running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
+| Command      : report_cdc -file /home/kshan/rvx_repos/npx-fpga-prototype/platform/starc_vera1/imp_genesys2-eb_2026-10-21/imp_result/route_cdc.rpt
+| Design       : STARC_VERA1_FPGA
+| Device       : 7k325t-ffg900
+| Speed File   : -2  PRODUCTION 1.12 2017-02-17
+| Design State : Routed
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                      Destination Clock                                                                                                                                          CDC Type                 Exceptions  Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  --------------------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------------  -----------------------  ----------  ---------  ----  ------  -------  ------------  
+Critical  clk_pll_i                         clk_100000000_xilinx_clock_pll_0                                                                                                                           User Ignored             False Path       8055  6273     261     1521             0  
+Critical  clk_100000000_xilinx_clock_pll_0  clk_pll_i                                                                                                                                                  User Ignored             False Path       9139  7656      16     1467             0  
+Critical  sync_pulse                        mem_refclk                                                                                                                                                 User Ignored             False Path          2     0       2        0             0  
+Critical  oserdes_clk                       oserdes_clkdiv                                                                                                                                             User Ignored             False Path         15     0      15        0             0  
+Critical  oserdes_clk_1                     oserdes_clkdiv_1                                                                                                                                           User Ignored             False Path         15     0      15        0             0  
+Critical  oserdes_clk_2                     oserdes_clkdiv_2                                                                                                                                           User Ignored             False Path         15     0      15        0             0  
+Critical  oserdes_clk_3                     oserdes_clkdiv_3                                                                                                                                           User Ignored             False Path         15     0      15        0             0  
+Critical  oserdes_clk_4                     oserdes_clkdiv_4                                                                                                                                           User Ignored             False Path          3     0       3        0             0  
+Critical  oserdes_clk_5                     oserdes_clkdiv_5                                                                                                                                           User Ignored             False Path          4     0       4        0             0  
+Critical  oserdes_clk_6                     oserdes_clkdiv_6                                                                                                                                           User Ignored             False Path         11     0      11        0             0  
+Critical  oserdes_clk_7                     oserdes_clkdiv_7                                                                                                                                           User Ignored             False Path         10     0      10        0             0  
+Critical  clk_100000000_xilinx_clock_pll_0  pjtag_rclk                                                                                                                                                 No Common Primary Clock  False Path         46    14      32        0             0  
+Critical  clk_pll_i                         u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/iserdes_clk  User Ignored             False Path          8     0       8        0             0  
+Critical  clk_pll_i                         u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/iserdes_clk  User Ignored             False Path          8     0       8        0             0  
+Critical  clk_pll_i                         u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_C.ddr_byte_lane_C/iserdes_clk  User Ignored             False Path          8     0       8        0             0  
+Critical  clk_pll_i                         u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/iserdes_clk  User Ignored             False Path          8     0       8        0             0  
+Warning   pjtag_rclk                        clk_100000000_xilinx_clock_pll_0                                                                                                                           No Common Primary Clock  False Path         34    34       0        0             0  
+Warning   input port clock                  clk_200000000_xilinx_clock_pll_0                                                                                                                           No Common Primary Clock  False Path          1     1       0        0             1  
+Warning   input port clock                  clk_pll_i                                                                                                                                                  No Common Primary Clock  False Path          1     1       0        0             1  
+Info      mem_refclk                        clk_pll_i                                                                                                                                                  User Ignored             False Path          4     4       0        0             0  
+

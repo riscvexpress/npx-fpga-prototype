@@ -1,0 +1,15 @@
+INCLUDES += -I${RVX_SSW_HOME}/memorymap
+INCLUDES += -I${PLATFORM_DIR}/arch/ssw/src
+C_SRC += $(wildcard ${PLATFORM_DIR}/arch/ssw/src/*.c)
+-include ${RVX_SSW_HOME}/core/rocket_opt/set_env.mh
+-include ${RVX_SSW_HOME}/system/env/set_env.mh
+-include ${RVX_SSW_HOME}/utility/env/set_env.mh
+-include ${RVX_SSW_HOME}/fakefile/env/set_env.mh
+-include ${RVX_SSW_HOME}/third_party/uthash/env/set_env.mh
+-include ${RVX_SSW_HOME}/image/env/set_env.mh
+-include ${RVX_SSW_HOME}/matrix/env/set_env.mh
+-include ${RVX_SSW_HOME}/mmiox/env/set_env.mh
+-include ${RVX_SSW_HOME}/driver/munoc/env/set_env.mh
+-include ${RVX_SSW_HOME}/driver/platform_controller/env/set_env.mh
+-include ${RVX_SSW_HOME}/driver/external_peri_group/env/set_env.mh
+-include ${RVX_SSW_HOME}/driver/dca/env/set_env.mh
