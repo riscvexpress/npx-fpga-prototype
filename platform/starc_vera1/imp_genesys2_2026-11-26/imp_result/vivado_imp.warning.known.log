@@ -1,0 +1,107 @@
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_1' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:153]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:154]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_2' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:155]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_5' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:90]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_3' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:94]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_4' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:95]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:347]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_17_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:348]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_00_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:425]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_39_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:426]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'oled_scs'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq0'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq1'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'oled_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdcsel'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_srstnn'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'oled_svbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'oled_svdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sdin'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_dc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_res'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:28]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_1' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:153]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:154]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_2' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:155]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_5' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:90]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_3' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:94]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_4' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:95]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:347]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_17_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:348]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_00_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:425]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_39_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:426]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:22]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:24]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'oled_scs'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq0'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq1'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'oled_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdcsel'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_srstnn'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'oled_svbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'oled_svdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:30]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sdin'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_dc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_res'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:28]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__GB3 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized0__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized0__GB3 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized1__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized1__GB3 has an empty top module
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_02/FSM_onehot_munoc_port_26_reg[1]) is unused and will be removed from module MUNOC_AXI_MASTER_NETWORK_INTERFACE_MODULE_ASYNCH__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_02/FSM_onehot_munoc_port_26_reg[1]) is unused and will be removed from module MUNOC_AXI_MASTER_NETWORK_INTERFACE_MODULE_ASYNCH__parameterized1.
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/boot_mode.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/spi_flash.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'oled_scs'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq0'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq1'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'oled_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdcsel'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_srstnn'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'oled_svbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'oled_svdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_rgb.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sdin'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_dc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_res'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2/pinmap/oled_bw_on_board.xdc:28]

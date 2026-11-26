@@ -1,0 +1,56 @@
+# Neuromorphic Processor eXpress
+
+**Neuromorphic Processor eXpress (NPX)** is an integrated framework for developing lightweight neuromorphic SoCs, from spike-based learning to FPGA prototyping.
+
+[https://npx-soc.readthedocs.io/](https://npx-soc.readthedocs.io/)
+
+<!-- local -->
+
+## Prerequisites
+
+### Linux
+
+`make`, `curl` (or `wget`), and `git`
+
+### Windows
+
+Install `git` and `make` with [Scoop](https://scoop.sh) in PowerShell.
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop install git make
+```
+
+On Windows 11, turn off Smart App Control (Windows Security > App & browser control > Smart App Control).
+
+## Install
+
+Run the following in the top directory of this repository.
+
+```sh
+git submodule init    # register the submodules
+git submodule update  # fetch the submodules (e.g. rvx_install)
+make setup_python     # copy ../rvx_config_python.mh, or install Python 3.9 into ./.rvx_venv
+make check_python     # confirm the selected Python
+make install          # download and set up the RVX modules
+```
+
+## Setup
+
+- Linux: run `source ./rvx_setup.sh` in every new terminal.
+- Windows: open a new terminal, since the environment variables are registered with `setx`.
+
+If `make install` fails with `No rule to make target 'install'`, the submodules are missing. Run `git submodule update --init` and try again.
+
+The installation manual is also available on the homepage.
+
+## Update
+
+Run the following in the top directory to pull the current branch and bring the submodules and the RVX modules up to date.
+
+```sh
+make update
+```
+
+<!-- local -->

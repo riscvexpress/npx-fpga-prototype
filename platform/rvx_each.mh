@@ -1,0 +1,29 @@
+verify_build:
+	@for x in ${wildcard ${CURDIR}/* }; do \
+		if [ -d $$x ]; then \
+			cd $$x && make clean syn; \
+			for a in $$x/app/*/; do \
+				[ -d $$a ] || continue; \
+				cd $$a && make clean rtl || exit 1; \
+				test -e $$a/rtl.release/compile_correctly || exit 1; \
+			done; \
+		fi; \
+	done
+
+verify_rtl:
+	@for x in ${wildcard ${CURDIR}/* }; do \
+		if [ -d $$x ]; then \
+			cd $$x && make test; \
+			test -e $$x/sim_rtl/compile_correctly || exit 1; \
+		fi; \
+	done
+
+verify_app:
+	@for x in ${wildcard ${CURDIR}/* }; do \
+		if [ -d $$x ]; then \
+			cd $$x && make verify; \
+			test -e $$x/sim_rtl/compile_correctly || exit 1; \
+		fi; \
+	done
+
+verify_all: verify_build verify_rtl verify_app

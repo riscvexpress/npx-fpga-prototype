@@ -1,0 +1,3 @@
+[submodule "rvx_install"]
+	path = rvx_install
+	url = https://github.com/riscvexpress/rvx_install.git

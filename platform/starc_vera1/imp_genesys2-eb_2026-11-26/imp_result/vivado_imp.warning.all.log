@@ -1,0 +1,1041 @@
+WARNING: [Vivado 12-13650] The IP file '/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/fpga_component/genesys2-eb/xci/xilinx_ddr3_ctrl_axi32/xilinx_ddr3_ctrl_axi32.xci' has been moved from its original location, as a result the outputs for this IP will now be generated in '/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/fpga_component/genesys2-eb/xci/xilinx_ddr3_ctrl_axi32'. Alternatively a copy of the IP can be imported into the project using one of the 'import_ip' or 'import_files' commands.
+WARNING: [Synth 8-11067] parameter 'ALERT_TX_DEFAULT' declared inside package 'prim_alert_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_alert_pkg.sv:19]
+WARNING: [Synth 8-11067] parameter 'ALERT_RX_DEFAULT' declared inside package 'prim_alert_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_alert_pkg.sv:22]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:81]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:82]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:90]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:91]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:99]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:100]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:108]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:109]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:117]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:118]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:126]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:127]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:135]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:136]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:144]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:145]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:154]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:162]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:163]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:171]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:172]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:180]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:181]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:189]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:190]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:198]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:199]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:207]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:208]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:216]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:217]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:225]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:226]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:234]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:235]
+WARNING: [Synth 8-11067] parameter 'RAM_2P_CFG_DEFAULT' declared inside package 'prim_ram_2p_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_ram_2p_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'MuBi4Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'MuBi8Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'MuBi12Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:285]
+WARNING: [Synth 8-11067] parameter 'MuBi16Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:417]
+WARNING: [Synth 8-11067] parameter 'MuBi20Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:549]
+WARNING: [Synth 8-11067] parameter 'MuBi24Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:681]
+WARNING: [Synth 8-11067] parameter 'MuBi28Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:813]
+WARNING: [Synth 8-11067] parameter 'MuBi32Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:945]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:28]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:33]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:38]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ROUND_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ALPHA_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:58]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST0' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:61]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST1' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:62]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST2' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:63]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST3' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:64]
+WARNING: [Synth 8-11067] parameter 'PRESENT_SBOX4' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:141]
+WARNING: [Synth 8-11067] parameter 'PRESENT_SBOX4_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:146]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM32' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM32_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:162]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM64' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:172]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM64_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:189]
+WARNING: [Synth 8-11067] parameter 'KeyIvWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:15]
+WARNING: [Synth 8-11067] parameter 'PartialSeedWidthDefault' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:16]
+WARNING: [Synth 8-11067] parameter 'MinNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:17]
+WARNING: [Synth 8-11067] parameter 'TriviumLfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'RndCnstTriviumLfsrSeedDefault' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'TriviumMaxNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:32]
+WARNING: [Synth 8-11067] parameter 'TriviumStateWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:33]
+WARNING: [Synth 8-11067] parameter 'BiviumMaxNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:102]
+WARNING: [Synth 8-11067] parameter 'BiviumStateWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:103]
+WARNING: [Synth 8-11067] parameter 'RAM_1P_CFG_DEFAULT' declared inside package 'prim_ram_1p_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_ram_1p_pkg.sv:19]
+WARNING: [Synth 8-11067] parameter 'RNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'CSRNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'FIPS_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:14]
+WARNING: [Synth 8-11067] parameter 'FIPS_CSRNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:15]
+WARNING: [Synth 8-11067] parameter 'WINDOW_CNTR_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:18]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_HW_IF_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:31]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_HW_IF_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:32]
+WARNING: [Synth 8-11067] parameter 'CS_AES_HALT_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'CS_AES_HALT_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:45]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_RNG_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:57]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_RNG_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:58]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_XHT_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:83]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_XHT_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:84]
+WARNING: [Synth 8-11067] parameter 'GENBITS_BUS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'CSRNG_CMD_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'FIPS_GENBITS_BUS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:14]
+WARNING: [Synth 8-11067] parameter 'MainSmStateWidth' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:16]
+WARNING: [Synth 8-11067] parameter 'CSRNG_CMD_STS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:17]
+WARNING: [Synth 8-11067] parameter 'CSRNG_REQ_DEFAULT' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'CSRNG_RSP_DEFAULT' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:45]
+WARNING: [Synth 8-11067] parameter 'CsKeymgrDivWidth' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:107]
+WARNING: [Synth 8-11067] parameter 'ENDPOINT_BUS_WIDTH' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'FIPS_ENDPOINT_BUS_WIDTH' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'EDN_REQ_DEFAULT' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:26]
+WARNING: [Synth 8-11067] parameter 'EDN_RSP_DEFAULT' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:27]
+WARNING: [Synth 8-11067] parameter 'BOOT_UNINSTANTIATE' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:28]
+WARNING: [Synth 8-11067] parameter 'LcValueWidth' declared inside package 'lc_ctrl_state_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/lc_ctrl/lc_ctrl_state_pkg.sv:19]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_1' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:153]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:154]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_2' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:155]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_5' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:90]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_3' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:94]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_4' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:95]
+WARNING: [Synth 8-10940] macro 'RVX_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/platform_controller/src/rvx_module_031.v:93]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/imp_genesys2-eb_2026-11-26/src/starc_vera1_fpga.v:64]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_132.v:204]
+WARNING: [Synth 8-7071] port 'device_temp_i' of module 'xilinx_ddr3_ctrl_axi32' is unconnected for instance 'u_xilinx_ddr3_ctrl_axi32' [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-7071] port 'device_temp' of module 'xilinx_ddr3_ctrl_axi32' is unconnected for instance 'u_xilinx_ddr3_ctrl_axi32' [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-7023] instance 'u_xilinx_ddr3_ctrl_axi32' of module 'xilinx_ddr3_ctrl_axi32' has 67 connections declared, but only 65 given [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-3848] Net dca_signal_24 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:96]
+WARNING: [Synth 8-3848] Net dca_signal_10 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:97]
+WARNING: [Synth 8-3848] Net dca_signal_02 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:80]
+WARNING: [Synth 8-3848] Net dca_signal_06 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:92]
+WARNING: [Synth 8-3848] Net dca_signal_08 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:93]
+WARNING: [Synth 8-3848] Net dca_signal_47 in module/entity DCA_MODULE_01 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_01.v:212]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:78]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:26]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:130]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:182]
+WARNING: [Synth 8-4767] Trying to implement RAM 'regfile_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPU.v:491]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2037]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2096]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2101]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rxs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2178]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2185]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2199]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2206]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rxs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1741]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1738]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1738]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1741]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd0val_x23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2639]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd0val_REG_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1740]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd1val_x29_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2657]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd1val_REG_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1743]
+WARNING: [Synth 8-3848] Net rvx_signal_44 in module/entity ERVP_COMMON_PERI_GROUP does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/common_peri_group/src/ervp_common_peri_group.v:147]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[127] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[126] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[125] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[124] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[123] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[122] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[121] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[120] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[119] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[118] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[117] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[116] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[115] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[114] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[113] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[112] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[111] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[110] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[109] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[108] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[107] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[106] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[105] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[104] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[103] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[102] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[101] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[100] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[99] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[98] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[97] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[96] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[95] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[94] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[93] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[92] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[91] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[90] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[89] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[88] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[87] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[86] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[85] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[84] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[83] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[82] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[81] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[80] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[79] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[78] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[77] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[76] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[75] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[74] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[73] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[72] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[71] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[70] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[69] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[68] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[67] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[66] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[65] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[64] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[63] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[62] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[61] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[60] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[59] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[58] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[57] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[56] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[55] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[54] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[53] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[52] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[51] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[50] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[49] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[48] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[47] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[46] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[45] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[44] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[43] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[42] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[41] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[40] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[39] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[38] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[37] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[36] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[35] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[34] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[33] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[32] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[31] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[30] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[29] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[28] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-6014] Unused sequential element rvx_signal_07_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_001.v:119]
+WARNING: [Synth 8-3848] Net delay_notice in module/entity ERVP_CORE_PERI_GROUP does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/core_peri_group/src/ervp_core_peri_group.v:103]
+WARNING: [Synth 8-3848] Net rvx_signal_24[3] in module/entity ERVP_PLATFORM_CONTROLLER does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/platform_controller/src/ervp_platform_controller.v:180]
+WARNING: [Synth 8-3936] Found unconnected internal register 'rvx_signal_0_reg' and it is trimmed from '4' to '3' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/lib_rtl/src/external/ervp_barrel_shifter.v:66]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:347]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_17_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:348]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_00_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:425]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_39_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:426]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3848] Net spi_flash_sclk in module/entity STARC_VERA1_FPGA does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/imp_genesys2-eb_2026-11-26/src/starc_vera1_fpga.v:76]
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_MUX__parameterized17 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_DEMUX__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_DEMUX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_20 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_13 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_23 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_00 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[89] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[88] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[87] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[86] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[85] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[84] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[83] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[80] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[79] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[78] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[77] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[76] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[75] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[74] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[73] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[72] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[71] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[70] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[69] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[68] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[31] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[30] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[29] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[28] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[27] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[26] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[25] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[24] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[23] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[22] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[21] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[20] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[19] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[18] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[17] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[16] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[1] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[0] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_02[1] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_05 in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[42] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[41] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[40] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[39] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[38] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[37] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[36] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_22 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_24[82] in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_18[1] in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_11 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[6] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[5] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[4] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[3] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[2] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[1] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[0] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_16[1] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08 in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstnn in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[13] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[12] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[11] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[10] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[9] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[8] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[7] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[6] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[5] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[4] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[3] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[2] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[1] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[0] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[13] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[12] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[11] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[10] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[9] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[8] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[7] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[6] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[5] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[4] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[3] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[2] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[1] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[0] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port external_rstnn in module STARC_VERA1_CLOCK_PLL_0_01 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_ref in module STARC_VERA1_SLOW_DRAM_00 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxawaddr[31] in module STARC_VERA1_SLOW_DRAM_00 is either unconnected or has no load
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'eth_phyrst_n'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:37]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/u_oddr_txc/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/*u_oddr_td/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'eth_phyrst_n'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'oled_scs'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq0'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq1'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'oled_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdcsel'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'oled_srstnn'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'oled_svbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'oled_svdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sdin'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_dc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_res'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:28]
+WARNING: [Synth 8-11067] parameter 'ALERT_TX_DEFAULT' declared inside package 'prim_alert_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_alert_pkg.sv:19]
+WARNING: [Synth 8-11067] parameter 'ALERT_RX_DEFAULT' declared inside package 'prim_alert_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_alert_pkg.sv:22]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:81]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:82]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:90]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:91]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:99]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:100]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:108]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:109]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:117]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:118]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:126]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:127]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:135]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:136]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:144]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:145]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:154]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:162]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:163]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:171]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:172]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:180]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:181]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:189]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:190]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:198]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:199]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:207]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:208]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:216]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:217]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:225]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:226]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:234]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_secded_pkg.sv:235]
+WARNING: [Synth 8-11067] parameter 'RAM_2P_CFG_DEFAULT' declared inside package 'prim_ram_2p_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_ram_2p_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'MuBi4Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'MuBi8Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'MuBi12Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:285]
+WARNING: [Synth 8-11067] parameter 'MuBi16Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:417]
+WARNING: [Synth 8-11067] parameter 'MuBi20Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:549]
+WARNING: [Synth 8-11067] parameter 'MuBi24Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:681]
+WARNING: [Synth 8-11067] parameter 'MuBi28Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:813]
+WARNING: [Synth 8-11067] parameter 'MuBi32Width' declared inside package 'prim_mubi_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_mubi_pkg.sv:945]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:28]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:33]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:38]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ROUND_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ALPHA_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:58]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST0' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:61]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST1' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:62]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST2' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:63]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST3' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:64]
+WARNING: [Synth 8-11067] parameter 'PRESENT_SBOX4' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:141]
+WARNING: [Synth 8-11067] parameter 'PRESENT_SBOX4_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:146]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM32' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:153]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM32_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:162]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM64' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:172]
+WARNING: [Synth 8-11067] parameter 'PRESENT_PERM64_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_cipher_pkg.sv:189]
+WARNING: [Synth 8-11067] parameter 'KeyIvWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:15]
+WARNING: [Synth 8-11067] parameter 'PartialSeedWidthDefault' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:16]
+WARNING: [Synth 8-11067] parameter 'MinNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:17]
+WARNING: [Synth 8-11067] parameter 'TriviumLfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:21]
+WARNING: [Synth 8-11067] parameter 'RndCnstTriviumLfsrSeedDefault' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'TriviumMaxNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:32]
+WARNING: [Synth 8-11067] parameter 'TriviumStateWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:33]
+WARNING: [Synth 8-11067] parameter 'BiviumMaxNfsrWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:102]
+WARNING: [Synth 8-11067] parameter 'BiviumStateWidth' declared inside package 'prim_trivium_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_trivium_pkg.sv:103]
+WARNING: [Synth 8-11067] parameter 'RAM_1P_CFG_DEFAULT' declared inside package 'prim_ram_1p_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/prim/prim_ram_1p_pkg.sv:19]
+WARNING: [Synth 8-11067] parameter 'RNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'CSRNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'FIPS_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:14]
+WARNING: [Synth 8-11067] parameter 'FIPS_CSRNG_BUS_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:15]
+WARNING: [Synth 8-11067] parameter 'WINDOW_CNTR_WIDTH' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:18]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_HW_IF_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:31]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_HW_IF_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:32]
+WARNING: [Synth 8-11067] parameter 'CS_AES_HALT_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'CS_AES_HALT_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:45]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_RNG_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:57]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_RNG_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:58]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_XHT_REQ_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:83]
+WARNING: [Synth 8-11067] parameter 'ENTROPY_SRC_XHT_RSP_DEFAULT' declared inside package 'entropy_src_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/entropy_src/entropy_src_pkg.sv:84]
+WARNING: [Synth 8-11067] parameter 'GENBITS_BUS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'CSRNG_CMD_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'FIPS_GENBITS_BUS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:14]
+WARNING: [Synth 8-11067] parameter 'MainSmStateWidth' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:16]
+WARNING: [Synth 8-11067] parameter 'CSRNG_CMD_STS_WIDTH' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:17]
+WARNING: [Synth 8-11067] parameter 'CSRNG_REQ_DEFAULT' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'CSRNG_RSP_DEFAULT' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:45]
+WARNING: [Synth 8-11067] parameter 'CsKeymgrDivWidth' declared inside package 'csrng_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/csrng/csrng_pkg.sv:107]
+WARNING: [Synth 8-11067] parameter 'ENDPOINT_BUS_WIDTH' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:12]
+WARNING: [Synth 8-11067] parameter 'FIPS_ENDPOINT_BUS_WIDTH' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:13]
+WARNING: [Synth 8-11067] parameter 'EDN_REQ_DEFAULT' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:26]
+WARNING: [Synth 8-11067] parameter 'EDN_RSP_DEFAULT' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:27]
+WARNING: [Synth 8-11067] parameter 'BOOT_UNINSTANTIATE' declared inside package 'edn_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/edn/edn_pkg.sv:28]
+WARNING: [Synth 8-11067] parameter 'LcValueWidth' declared inside package 'lc_ctrl_state_pkg' shall be treated as localparam [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/opentitan/lc_ctrl/lc_ctrl_state_pkg.sv:19]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_1' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:153]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:154]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_2' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_default_snim.v:155]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_5' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:90]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_3' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:94]
+WARNING: [Synth 8-10940] macro 'MUNOC_LDEF_4' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_29.v:95]
+WARNING: [Synth 8-10940] macro 'RVX_LDEF_0' is redefined [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/platform_controller/src/rvx_module_031.v:93]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/imp_genesys2-eb_2026-11-26/src/starc_vera1_fpga.v:64]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_132.v:204]
+WARNING: [Synth 8-7071] port 'device_temp_i' of module 'xilinx_ddr3_ctrl_axi32' is unconnected for instance 'u_xilinx_ddr3_ctrl_axi32' [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-7071] port 'device_temp' of module 'xilinx_ddr3_ctrl_axi32' is unconnected for instance 'u_xilinx_ddr3_ctrl_axi32' [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-7023] instance 'u_xilinx_ddr3_ctrl_axi32' of module 'xilinx_ddr3_ctrl_axi32' has 67 connections declared, but only 65 given [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/include/slow_dram_body.vh:69]
+WARNING: [Synth 8-3848] Net dca_signal_24 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:96]
+WARNING: [Synth 8-3848] Net dca_signal_10 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:97]
+WARNING: [Synth 8-3848] Net dca_signal_02 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:80]
+WARNING: [Synth 8-3848] Net dca_signal_06 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:92]
+WARNING: [Synth 8-3848] Net dca_signal_08 in module/entity DCA_MODULE_21 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_21.v:93]
+WARNING: [Synth 8-3848] Net dca_signal_47 in module/entity DCA_MODULE_01 does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/hwlib_special/dca/src/dca_module_01.v:212]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:78]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:26]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:130]
+WARNING: [Synth 8-6014] Unused sequential element reg_RW0_ren_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/freechips.rocketchip.system.RvcRocketOpt32Config.behav_srams.v:182]
+WARNING: [Synth 8-4767] Trying to implement RAM 'regfile_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPU.v:491]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2037]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2096]
+WARNING: [Synth 8-6014] Unused sequential element ex_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2101]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rxs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2178]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2185]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2199]
+WARNING: [Synth 8-6014] Unused sequential element mem_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2206]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rxs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1741]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rxs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1738]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rfs1_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1738]
+WARNING: [Synth 8-6014] Unused sequential element wb_ctrl_rfs2_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1741]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd0val_x23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2639]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd0val_REG_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1740]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd1val_x29_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2657]
+WARNING: [Synth 8-6014] Unused sequential element coreMonitorBundle_rd1val_REG_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1743]
+WARNING: [Synth 8-3848] Net rvx_signal_44 in module/entity ERVP_COMMON_PERI_GROUP does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/common_peri_group/src/ervp_common_peri_group.v:147]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[127] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[126] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[125] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[124] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[123] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[122] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[121] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[120] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[119] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[118] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[117] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[116] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[115] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[114] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[113] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[112] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[111] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[110] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[109] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[108] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[107] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[106] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[105] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[104] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[103] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[102] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[101] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[100] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[99] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[98] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[97] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[96] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[95] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[94] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[93] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[92] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[91] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[90] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[89] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[88] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[87] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[86] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[85] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[84] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[83] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[82] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[81] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[80] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[79] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[78] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[77] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[76] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[75] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[74] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[73] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[72] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[71] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[70] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[69] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[68] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[67] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[66] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[65] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[64] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[63] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[62] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[61] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[60] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[59] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[58] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[57] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[56] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[55] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[54] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[53] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[52] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[51] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[50] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[49] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[48] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[47] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[46] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[45] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[44] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[43] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[42] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[41] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[40] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[39] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[38] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[37] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[36] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[35] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[34] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[33] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[32] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[31] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[30] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[29] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-7137] Register rvx_signal_11_reg[28] in module RVX_MODULE_036 has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_036.v:85]
+WARNING: [Synth 8-6014] Unused sequential element rvx_signal_07_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/uart/src/rvx_module_001.v:119]
+WARNING: [Synth 8-3848] Net delay_notice in module/entity ERVP_CORE_PERI_GROUP does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/core_peri_group/src/ervp_core_peri_group.v:103]
+WARNING: [Synth 8-3848] Net rvx_signal_24[3] in module/entity ERVP_PLATFORM_CONTROLLER does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/peripheral/platform_controller/src/ervp_platform_controller.v:180]
+WARNING: [Synth 8-3936] Found unconnected internal register 'rvx_signal_0_reg' and it is trimmed from '4' to '3' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/lib_rtl/src/external/ervp_barrel_shifter.v:66]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_23_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:347]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_17_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:348]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_00_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:425]
+WARNING: [Synth 8-6014] Unused sequential element munoc_signal_39_reg was removed.  [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_10.v:426]
+WARNING: [Synth 8-3936] Found unconnected internal register 'munoc_signal_37_reg' and it is trimmed from '512' to '128' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/munoc/src/munoc_module_06.v:399]
+WARNING: [Synth 8-3848] Net spi_flash_sclk in module/entity STARC_VERA1_FPGA does not have driver. [/home/kshan/xarvis/npx-fpga-prototype/platform/starc_vera1/imp_genesys2-eb_2026-11-26/src/starc_vera1_fpga.v:76]
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_MUX__parameterized17 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_DEMUX__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select[0] in module ERVP_DEMUX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_20 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_13 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_23 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_00 in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[89] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[88] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[87] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[86] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[85] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[84] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[83] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[80] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[79] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[78] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[77] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[76] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[75] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[74] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[73] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[72] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[71] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[70] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[69] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[68] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[31] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[30] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[29] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[28] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[27] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[26] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[25] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[24] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[23] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[22] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[21] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[20] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[19] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[18] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[17] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[16] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[1] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08[0] in module RVX_MODULE_043 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_02[1] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_05 in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[42] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[41] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[40] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[39] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[38] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[37] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_03[36] in module RVX_MODULE_113 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_22 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_24[82] in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_18[1] in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_11 in module RVX_MODULE_047 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[6] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[5] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[4] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[3] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[2] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[1] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_40[0] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_16[1] in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rvx_port_08 in module RVX_MODULE_077 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstnn in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[13] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[12] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[11] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[10] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[9] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[8] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[7] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[6] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[5] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[4] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[3] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[2] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[1] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port windex[0] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[13] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[12] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[11] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[10] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[9] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[8] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[7] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[6] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[5] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[4] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[3] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[2] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[1] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rindex[0] in module ERVP_MEMORY_CELL_1R1W is either unconnected or has no load
+WARNING: [Synth 8-7129] Port external_rstnn in module STARC_VERA1_CLOCK_PLL_0_01 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_ref in module STARC_VERA1_SLOW_DRAM_00 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxawaddr[31] in module STARC_VERA1_SLOW_DRAM_00 is either unconnected or has no load
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:22]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:23]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:26]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'eth_mdc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'eth_phyrst_n'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:37]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/u_oddr_txc/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/*u_oddr_td/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'eth_phyrst_n'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:50]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'oled_scs'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq0'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdq1'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'oled_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'oled_sdcsel'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'oled_srstnn'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'oled_svbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'oled_svdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc:40]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_rgb.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sclk'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_sdin'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_dc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_res'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vbat'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'oled_bw_vdd'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc:28]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/oled_bw_on_board.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/STARC_VERA1_FPGA_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+WARNING: [Synth 8-3936] Found unconnected internal register 'pstore2_addr_reg' and it is trimmed from '32' to '12' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/DCache.v:628]
+WARNING: [Synth 8-3936] Found unconnected internal register 'pstore1_addr_reg' and it is trimmed from '32' to '12' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/DCache.v:615]
+WARNING: [Synth 8-3936] Found unconnected internal register 'release_ack_addr_reg' and it is trimmed from '32' to '22' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/DCache.v:1085]
+WARNING: [Synth 8-7032] RAM "ram_reg" have possible Byte Write pattern, however the data width (84) is not multiple of supported byte widths of 8 or 9 .
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_btb_updatePipe_bits_br_pc_reg' and it is trimmed from '32' to '2' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/BTB.v:2374]
+WARNING: [Synth 8-3936] Found unconnected internal register 'in_typ_reg' and it is trimmed from '2' to '1' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPToInt.v:132]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inPipe_bits_typ_reg' and it is trimmed from '2' to '1' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/IntToFP.v:95]
+WARNING: [Synth 8-3936] Found unconnected internal register 'inPipe_bits_rm_reg' and it is trimmed from '3' to '2' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPToFP.v:31]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mem_reg_inst_reg' and it is trimmed from '32' to '12' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPU.v:620]
+WARNING: [Synth 8-3936] Found unconnected internal register 'ex_reg_inst_reg' and it is trimmed from '32' to '28' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/FPU.v:259]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wb_reg_raw_inst_reg' and it is trimmed from '32' to '16' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:1680]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mem_reg_raw_inst_reg' and it is trimmed from '32' to '16' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2461]
+WARNING: [Synth 8-3936] Found unconnected internal register 'ex_reg_raw_inst_reg' and it is trimmed from '32' to '16' bits. [/home/kshan/xarvis/npx-fpga-prototype/rvx_hwlib_basic/core/rocket_opt/src/Rocket.v:2380]
+WARNING: [Synth 8-6430] The Block RAM "tag_array_ext:/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6841] Block RAM (ram_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+WARNING: [Synth 8-6430] The Block RAM "data_arrays_0_ext:/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6430] The Block RAM "tag_array_0_ext:/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6841] Block RAM (ram_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+WARNING: [Synth 8-6430] The Block RAM "data_arrays_0_0_ext:/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6841] Block RAM (i_system_sram/generate_cell[0].i_cell/i_write_bit[1].rvx_signal_3_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+WARNING: [Synth 8-6430] The Block RAM "dcache/tag_array/tag_array_ext/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6841] Block RAM (tag_array_ext/ram_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+WARNING: [Synth 8-6430] The Block RAM "dcache/\data/data_arrays_0/data_arrays_0_ext /ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6430] The Block RAM "frontend/icache/tag_array/tag_array_0_ext/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-6841] Block RAM (tag_array/tag_array_0_ext/ram_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+WARNING: [Synth 8-6430] The Block RAM "frontend/icache/data_arrays_0/data_arrays_0_0_ext/ram_reg" may get memory collision error if read and write address collide. Use attribute (* rw_addr_collision= "yes" *) to avoid collision 
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__GB3 has an empty top module
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqhint driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqlast driven by constant 1
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqafy driven by constant 1
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[191] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[190] driven by constant 1
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[189] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[180] driven by constant 1
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[179] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[178] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[177] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[176] driven by constant 1
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[175] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[174] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[173] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[172] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[171] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[170] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[169] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[168] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[167] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[166] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[165] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[164] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[163] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[162] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[161] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[160] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[159] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[158] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[157] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[156] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[155] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[154] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[153] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[152] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[151] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[150] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[149] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[148] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[147] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[146] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[145] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[144] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[143] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[142] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[141] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[140] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[139] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[138] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[137] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[136] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[135] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[134] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[133] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[132] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[131] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[130] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[129] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[128] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[127] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[126] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[125] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[124] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[123] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[122] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[121] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[120] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[119] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[118] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[117] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[116] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[115] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[114] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[113] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[112] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[111] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[110] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[109] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[108] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[107] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[106] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[105] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[104] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[103] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[102] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[101] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[100] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[99] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[98] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[97] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[96] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[95] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[94] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[93] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[92] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[91] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[90] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[89] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[88] driven by constant 0
+WARNING: [Synth 8-3917] design DCA_MATRIX_LSU_LPI2P__GC0 has port read_slqdata[87] driven by constant 0
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized0__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized0__GB3 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized1__GB2 has an empty top module
+WARNING: [Synth 8-3330] design MUNOC_MODULE_06__parameterized1__GB3 has an empty top module
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__1.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0__2.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[2]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[1]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_1/i_munoc_instance_1/i_munoc_instance_1/i_rvx_instance_1/FSM_onehot_rvx_signal_10_reg[0]) is unused and will be removed from module MUNOC_MODULE_10.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_02/FSM_onehot_munoc_port_26_reg[1]) is unused and will be removed from module MUNOC_AXI_MASTER_NETWORK_INTERFACE_MODULE_ASYNCH__parameterized0.
+WARNING: [Synth 8-3332] Sequential element (i_munoc_instance_02/FSM_onehot_munoc_port_26_reg[1]) is unused and will be removed from module MUNOC_AXI_MASTER_NETWORK_INTERFACE_MODULE_ASYNCH__parameterized1.
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'boot_mode[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/boot_mode.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sclk_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'i2c_readymade_sdata_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/i2c_readymade.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_scs_list[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'spi_flash_sdq[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/spi_flash.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdc'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'eth_mdio'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'eth_phyrst_n'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[0]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[1]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[2]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[3]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:37]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/u_oddr_txc/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_txck'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_rxctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-646] clock 'rgmii_rxc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-646] clock 'rgmii_txc' not found. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:46]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/*u_oddr_td/C}'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins -hier -filter {NAME =~ *i_mii_rgmii_bridge/*u_oddr_td/C}]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'eth_txd[*]'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'eth_txctl'. [/home/kshan/xarvis/npx-fpga-prototype/rvx_imp_class/genesys2-eb/pinmap/ethernet.xdc:47]
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.

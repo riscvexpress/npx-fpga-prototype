@@ -1,0 +1,7 @@
+{
+  "preprocess": {
+    "input": "mnist_opendataset",
+    "timesteps": 4,
+    "step_generation": "direct"
+  }
+}

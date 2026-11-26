@@ -1,0 +1,7 @@
+#USE_FAKEFILE=true
+
+USE_MATRIX_OPT=true
+
+#USE_FREERTOS=true
+
+#USE_NPX=true

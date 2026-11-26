@@ -1,0 +1,227 @@
+
+irom.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <boot_start>:
+   0:	e1000437          	lui	s0,0xe1000
+   4:	e2011937          	lui	s2,0xe2011
+   8:	90090913          	addi	s2,s2,-1792 # e2010900 <convert_endian+0xe20106f0>
+   c:	00010bb7          	lui	s7,0x10
+  10:	020b8b93          	addi	s7,s7,32 # 10020 <convert_endian+0xfe10>
+  14:	01740bb3          	add	s7,s0,s7
+
+00000018 <check_boot_mode>:
+  18:	000102b7          	lui	t0,0x10
+  1c:	00828293          	addi	t0,t0,8 # 10008 <convert_endian+0xfdf8>
+  20:	005402b3          	add	t0,s0,t0
+
+00000024 <.L1^B1>:
+  24:	0002a303          	lw	t1,0(t0)
+  28:	fe030ee3          	beqz	t1,24 <.L1^B1>
+  2c:	000102b7          	lui	t0,0x10
+  30:	005402b3          	add	t0,s0,t0
+  34:	0002a303          	lw	t1,0(t0) # 10000 <convert_endian+0xfdf0>
+  38:	00000393          	li	t2,0
+  3c:	00730863          	beq	t1,t2,4c <start_app>
+  40:	00100393          	li	t2,1
+  44:	02730663          	beq	t1,t2,70 <be_unique>
+  48:	0240006f          	j	6c <infinite_loop>
+
+0000004c <start_app>:
+  4c:	00200393          	li	t2,2
+
+00000050 <.L1^B2>:
+  50:	000ba303          	lw	t1,0(s7)
+  54:	fe731ee3          	bne	t1,t2,50 <.L1^B2>
+  58:	000102b7          	lui	t0,0x10
+  5c:	02828293          	addi	t0,t0,40 # 10028 <convert_endian+0xfe18>
+  60:	005402b3          	add	t0,s0,t0
+  64:	0002a283          	lw	t0,0(t0)
+  68:	00028067          	jr	t0
+
+0000006c <infinite_loop>:
+  6c:	0000006f          	j	6c <infinite_loop>
+
+00000070 <be_unique>:
+  70:	000ba303          	lw	t1,0(s7)
+  74:	fc601ce3          	bne	zero,t1,4c <start_app>
+
+00000078 <configure_spi>:
+  78:	a00003b7          	lui	t2,0xa0000
+  7c:	00792823          	sw	t2,16(s2)
+  80:	fff00393          	li	t2,-1
+  84:	02792c23          	sw	t2,56(s2)
+  88:	00239313          	slli	t1,t2,0x2
+  8c:	01230333          	add	t1,t1,s2
+  90:	c00003b7          	lui	t2,0xc0000
+  94:	00438393          	addi	t2,t2,4 # c0000004 <convert_endian+0xbffffdf4>
+  98:	00732c23          	sw	t2,24(t1)
+
+0000009c <set_flash_baseaddr>:
+  9c:	e10102b7          	lui	t0,0xe1010
+  a0:	09828293          	addi	t0,t0,152 # e1010098 <convert_endian+0xe100fe88>
+  a4:	0002a503          	lw	a0,0(t0)
+
+000000a8 <align_flash_addr>:
+  a8:	00350513          	addi	a0,a0,3
+  ac:	00357293          	andi	t0,a0,3
+  b0:	40550533          	sub	a0,a0,t0
+
+000000b4 <num_bytes>:
+  b4:	0d0000ef          	jal	184 <read_one_byte_from_flash>
+  b8:	0cc000ef          	jal	184 <read_one_byte_from_flash>
+  bc:	0c8000ef          	jal	184 <read_one_byte_from_flash>
+  c0:	0c4000ef          	jal	184 <read_one_byte_from_flash>
+  c4:	14c000ef          	jal	210 <convert_endian>
+  c8:	0a058a63          	beqz	a1,17c <set_ready>
+  cc:	00058993          	mv	s3,a1
+
+000000d0 <memory_addr>:
+  d0:	0b4000ef          	jal	184 <read_one_byte_from_flash>
+  d4:	0b0000ef          	jal	184 <read_one_byte_from_flash>
+  d8:	0ac000ef          	jal	184 <read_one_byte_from_flash>
+  dc:	0a8000ef          	jal	184 <read_one_byte_from_flash>
+  e0:	130000ef          	jal	210 <convert_endian>
+  e4:	00058a13          	mv	s4,a1
+
+000000e8 <write_unit>:
+  e8:	09c000ef          	jal	184 <read_one_byte_from_flash>
+  ec:	098000ef          	jal	184 <read_one_byte_from_flash>
+  f0:	094000ef          	jal	184 <read_one_byte_from_flash>
+  f4:	090000ef          	jal	184 <read_one_byte_from_flash>
+  f8:	118000ef          	jal	210 <convert_endian>
+  fc:	00200313          	li	t1,2
+ 100:	02658463          	beq	a1,t1,128 <loop_2byte>
+ 104:	00400313          	li	t1,4
+ 108:	04658463          	beq	a1,t1,150 <loop_4byte>
+
+0000010c <loop_1byte>:
+ 10c:	00000593          	li	a1,0
+ 110:	074000ef          	jal	184 <read_one_byte_from_flash>
+ 114:	00ba0023          	sb	a1,0(s4)
+ 118:	fff98993          	addi	s3,s3,-1
+ 11c:	001a0a13          	addi	s4,s4,1
+ 120:	fe0996e3          	bnez	s3,10c <loop_1byte>
+ 124:	f85ff06f          	j	a8 <align_flash_addr>
+
+00000128 <loop_2byte>:
+ 128:	00000593          	li	a1,0
+ 12c:	058000ef          	jal	184 <read_one_byte_from_flash>
+ 130:	054000ef          	jal	184 <read_one_byte_from_flash>
+ 134:	0dc000ef          	jal	210 <convert_endian>
+ 138:	0105d593          	srli	a1,a1,0x10
+ 13c:	00ba1023          	sh	a1,0(s4)
+ 140:	ffe98993          	addi	s3,s3,-2
+ 144:	002a0a13          	addi	s4,s4,2
+ 148:	fe0990e3          	bnez	s3,128 <loop_2byte>
+ 14c:	f5dff06f          	j	a8 <align_flash_addr>
+
+00000150 <loop_4byte>:
+ 150:	00000593          	li	a1,0
+ 154:	030000ef          	jal	184 <read_one_byte_from_flash>
+ 158:	02c000ef          	jal	184 <read_one_byte_from_flash>
+ 15c:	028000ef          	jal	184 <read_one_byte_from_flash>
+ 160:	024000ef          	jal	184 <read_one_byte_from_flash>
+ 164:	0ac000ef          	jal	210 <convert_endian>
+ 168:	00ba2023          	sw	a1,0(s4)
+ 16c:	ffc98993          	addi	s3,s3,-4
+ 170:	004a0a13          	addi	s4,s4,4
+ 174:	fc099ee3          	bnez	s3,150 <loop_4byte>
+ 178:	f31ff06f          	j	a8 <align_flash_addr>
+
+0000017c <set_ready>:
+ 17c:	000ba023          	sw	zero,0(s7)
+ 180:	ecdff06f          	j	4c <start_app>
+
+00000184 <read_one_byte_from_flash>:
+ 184:	00008b13          	mv	s6,ra
+ 188:	07c000ef          	jal	204 <wait_ready>
+
+0000018c <cmd>:
+ 18c:	01855293          	srli	t0,a0,0x18
+ 190:	00829293          	slli	t0,t0,0x8
+ 194:	0132e293          	ori	t0,t0,19
+ 198:	01055313          	srli	t1,a0,0x10
+ 19c:	0ff37313          	zext.b	t1,t1
+ 1a0:	01031313          	slli	t1,t1,0x10
+ 1a4:	0062e2b3          	or	t0,t0,t1
+ 1a8:	00855313          	srli	t1,a0,0x8
+ 1ac:	01831313          	slli	t1,t1,0x18
+ 1b0:	0062e2b3          	or	t0,t0,t1
+ 1b4:	04592223          	sw	t0,68(s2)
+ 1b8:	0ff57293          	zext.b	t0,a0
+ 1bc:	04592223          	sw	t0,68(s2)
+ 1c0:	000023b7          	lui	t2,0x2
+ 1c4:	20438393          	addi	t2,t2,516 # 2204 <convert_endian+0x1ff4>
+ 1c8:	02792e23          	sw	t2,60(s2)
+ 1cc:	038000ef          	jal	204 <wait_ready>
+
+000001d0 <read_rx_fifo>:
+ 1d0:	000013b7          	lui	t2,0x1
+ 1d4:	02792e23          	sw	t2,60(s2)
+ 1d8:	01000337          	lui	t1,0x1000
+
+000001dc <.L1^B3>:
+ 1dc:	01492283          	lw	t0,20(s2)
+ 1e0:	0062f2b3          	and	t0,t0,t1
+ 1e4:	fe029ce3          	bnez	t0,1dc <.L1^B3>
+ 1e8:	04092283          	lw	t0,64(s2)
+ 1ec:	0ff2f293          	zext.b	t0,t0
+
+000001f0 <accum>:
+ 1f0:	00859593          	slli	a1,a1,0x8
+ 1f4:	005585b3          	add	a1,a1,t0
+
+000001f8 <incr>:
+ 1f8:	00150513          	addi	a0,a0,1
+ 1fc:	000b0093          	mv	ra,s6
+ 200:	00008067          	ret
+
+00000204 <wait_ready>:
+ 204:	01492383          	lw	t2,20(s2)
+ 208:	fe03dee3          	bgez	t2,204 <wait_ready>
+ 20c:	00008067          	ret
+
+00000210 <convert_endian>:
+ 210:	0ff00293          	li	t0,255
+ 214:	0055f333          	and	t1,a1,t0
+ 218:	0085d593          	srli	a1,a1,0x8
+ 21c:	0055f3b3          	and	t2,a1,t0
+ 220:	0085d593          	srli	a1,a1,0x8
+ 224:	0055fe33          	and	t3,a1,t0
+ 228:	0085d593          	srli	a1,a1,0x8
+ 22c:	008e1e13          	slli	t3,t3,0x8
+ 230:	01c5e5b3          	or	a1,a1,t3
+ 234:	01039393          	slli	t2,t2,0x10
+ 238:	0075e5b3          	or	a1,a1,t2
+ 23c:	01831313          	slli	t1,t1,0x18
+ 240:	0065e5b3          	or	a1,a1,t1
+ 244:	00008067          	ret
+
+Disassembly of section .riscv.attributes:
+
+00000000 <.riscv.attributes>:
+   0:	3041                	.insn	2, 0x3041
+   2:	0000                	.insn	2, 0x0000
+   4:	7200                	.insn	2, 0x7200
+   6:	7369                	.insn	2, 0x7369
+   8:	01007663          	bgeu	zero,a6,14 <.riscv.attributes+0x14>
+   c:	0026                	.insn	2, 0x0026
+   e:	0000                	.insn	2, 0x0000
+  10:	7205                	.insn	2, 0x7205
+  12:	3376                	.insn	2, 0x3376
+  14:	6932                	.insn	2, 0x6932
+  16:	7032                	.insn	2, 0x7032
+  18:	5f31                	.insn	2, 0x5f31
+  1a:	326d                	.insn	2, 0x326d
+  1c:	3070                	.insn	2, 0x3070
+  1e:	7a5f 6369 7273      	.insn	6, 0x727363697a5f
+  24:	7032                	.insn	2, 0x7032
+  26:	5f30                	.insn	2, 0x5f30
+  28:	6d7a                	.insn	2, 0x6d7a
+  2a:	756d                	.insn	2, 0x756d
+  2c:	316c                	.insn	2, 0x316c
+  2e:	3070                	.insn	2, 0x3070
+	...
